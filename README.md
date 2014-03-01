@@ -28,3 +28,4 @@ One way to generate to improve upon the code would be to use classes and use pro
   using google font APIs.
 
 4. Also enable curl extension, as the url authencity is checked by curl.
+5. Copy all the files into a new folder named 'purple' so that localhost/purple takes you to the index.php. For this to work it's neccessary to put the files into purple named folder as localhost/purple is the base URL.
