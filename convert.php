@@ -15,9 +15,12 @@ if(isset($_GET["longurl"]))
 	if(!(stristr($longurl, 'localhost/purple') === FALSE) )
 	{
 		$str= substr($longurl, -1);
+		$str= substr($longurl, -1);
 	
-		$str=substr($longurl, -7);
-
+		$str=substr($longurl, -8);
+		$str=substr($str,0,7);
+		
+		
     	 if(alreadyThere($str,1))
 		{
 			display_url($str,1);
